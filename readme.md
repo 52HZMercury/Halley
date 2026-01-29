@@ -21,9 +21,9 @@ The primary goal of Halley is **English language enhancement**. *The Economist* 
 
 The project is composed of three specialized modules:
 
-1. **`auto_runner.py` (The Heart)**: A long-running background scheduler that coordinates the entire workflow.
-2. **`download_economist.py` (The Gatherer)**: Handles URL construction, directory management, and the actual file download from curated repositories.
-3. **`send_email.py` (The Messenger)**: A secure SMTP client that delivers the latest file to your mailing list.
+1. **`runner.py` (The Heart)**: A long-running background scheduler that coordinates the entire workflow.
+2. **`downloader.py` (The Gatherer)**: Handles URL construction, directory management, and the actual file download from curated repositories.
+3. **`sender.py` (The Messenger)**: A secure SMTP client that delivers the latest file to your mailing list.
 
 ## 🚀 Quick Start
 
@@ -34,8 +34,8 @@ The project is composed of three specialized modules:
 
 ### 2. Configuration
 
-* **Download**: Set your proxy settings in `download_economist.py` if necessary.
-* **Email**: Update `SENDER_EMAIL`, `SENDER_PASSWORD`, and `RECEIVER_EMAILS` in `send_email.py`.
+* **Download**: Set your proxy settings in `downloader.py` if necessary.
+* **Email**: Update `SENDER_EMAIL`, `SENDER_PASSWORD`, and `RECEIVER_EMAILS` in `sender.py`.
 
 ### 3. Running the Bot
 
