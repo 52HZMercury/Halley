@@ -1,5 +1,3 @@
-# README.md
-
 # ☄️ Halley - The Economist Auto-Deliver
 
 **Halley** is an automated Python pipeline designed to foster long-term English language growth by ensuring a steady, weekly supply of *The Economist* magazine directly to your inbox.
@@ -44,7 +42,7 @@ The project is composed of three specialized modules:
 Simply start the orchestrator:
 
 ```bash
-python auto_runner.py
+python runner.py
 
 ```
 

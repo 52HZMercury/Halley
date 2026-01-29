@@ -1,0 +1,32 @@
+# Halley 项目统一配置文件
+
+# 调度配置 发送时间
+scheduler:
+  run_day: "saturday"
+  run_time: "20:00"
+
+
+# 网络代理配置 (如果不需要代理，可将值设为 null) 代理配置
+proxy:
+  # 老版clash的代理地址
+  http: "http://127.0.0.1:7890"
+  https: "http://127.0.0.1:7890"
+  # 新版clash-verge的代理地址
+#  http: "http://127.0.0.1:7897"
+#  https: "http://127.0.0.1:7897"
+
+# 邮件服务配置
+email:
+  smtp_server: "smtp.qq.com"
+  smtp_port: 587
+  sender_email: "2108796780@qq.com" # 发件人邮箱
+  sender_password: "rniadlcoydfadbgf" # 建议使用环境变量或加密存储
+  receiver_emails: # 收件人邮箱列表
+    - "chenning_william@163.com"
+    # - "2230035341@qq.com"
+
+# 路径配置
+paths:
+  output_dir: "downloads"
+  download_script: "downloader.py"
+  email_script: "sender.py"
