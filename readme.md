@@ -43,7 +43,6 @@ Simply start the orchestrator:
 
 ```bash
 python runner.py
-
 ```
 
 The "Halley" cycle will begin, and you can expect your first issue this coming Saturday.
