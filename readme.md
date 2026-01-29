@@ -1,5 +1,3 @@
----
-
 # README.md
 
 # ☄️ Halley - The Economist Auto-Deliver
