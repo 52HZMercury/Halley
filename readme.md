@@ -50,6 +50,3 @@ The "Halley" cycle will begin, and you can expect your first issue this coming S
 
 ---
 
-## 📝 License
-
-This project is for personal educational and language learning purposes. Please respect the copyright of the content providers.

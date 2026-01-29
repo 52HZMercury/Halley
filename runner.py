@@ -58,7 +58,7 @@ print("⏳ 正在后台守候 (请勿关闭此窗口)...")
 # 【关键：事件循环】让程序持续运行
 try:
     while True:
-        run_task()  # 取消注释即可立即执行一次测试
+        # run_task()  # 取消注释即可立即执行一次测试
         schedule.run_pending()
         time.sleep(60) # 每分钟检查一次
 except KeyboardInterrupt:
