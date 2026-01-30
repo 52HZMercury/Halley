@@ -20,7 +20,7 @@ email:
   smtp_server: "smtp.qq.com"
   smtp_port: 587
   sender_email: "2108796780@qq.com" # 发件人邮箱
-  sender_password: "rniadlcoydfadbgf" # 建议使用环境变量或加密存储
+  sender_password: "" # 建议使用环境变量或加密存储
   receiver_emails: # 收件人邮箱列表
     - "chenning_william@163.com"
     # - "2230035341@qq.com"
